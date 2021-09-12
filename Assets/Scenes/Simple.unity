@@ -1155,7 +1155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: {fileID: 1574712339}
-  keyCode: 261
+  keyCode: 304
   holdTime: 0.5
   timeMode: 0
   execute: 0
@@ -1178,7 +1178,7 @@ MonoBehaviour:
   items:
   - option: 1
     conditions: {fileID: 0}
-    actions: {fileID: 0}
+    actions: {fileID: 2143754760}
   minDistance: 0
   minDistanceToPlayer: 5
 --- !u!114 &1574712340
@@ -1194,7 +1194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: {fileID: 1574712341}
-  keyCode: 261
+  keyCode: 304
   holdTime: 0.5
   timeMode: 0
   execute: 1
@@ -1233,7 +1233,7 @@ GameObject:
   - component: {fileID: 1791573029}
   - component: {fileID: 1791573031}
   m_Layer: 0
-  m_Name: Actions
+  m_Name: StartRun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1563,7 +1563,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   drawPreviousWeapon: 0
-  meleeWeapon: {fileID: 0}
+  meleeWeapon: {fileID: 11400000, guid: 5b4a3ee64155ff74a8bde3adee15702d, type: 2}
   meleeShield: {fileID: 0}
 --- !u!114 &1978086907
 MonoBehaviour:
@@ -1614,7 +1614,7 @@ GameObject:
   - component: {fileID: 2143754759}
   - component: {fileID: 2143754758}
   m_Layer: 0
-  m_Name: Actions (2)
+  m_Name: StopRun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
